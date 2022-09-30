@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2a6ff92-e4cd-452f-88d9-72d7373ddec7" name="Changes" comment="Assignment commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extent-test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/annotations/FrameworkAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/config/PropertyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/config/PropertyConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/constants/FrameworkConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/driver/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/driver/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/driver/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/driver/LocalDriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/driver/RemoteDriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/enums/BrowserType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/enums/CategoryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/enums/LogType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/enums/RunMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/enums/WaitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/exceptions/FrameworkException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/exceptions/InvalidBrowserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/exceptions/InvalidPathForExcelException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/exceptions/InvalidRemoteURLException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/listeners/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/pages/AmazonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/reports/ExtentReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/reports/ExtentReportLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/reports/ExtentReportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/reports/FrameworkLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/testdata/TestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/DataProviderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/DynamicsXpathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/ELKUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/ExplicitWaitUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/ScreenshotUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/SeleniumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/SearchWristWatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/WristWatches_TestData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2FQebT8IBE4hScgSjjZ6rqDv8lr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Profession/LearnAutomation/RIAInsuranceAssignment/src/test/resources/testData&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Profession\LearnAutomation\RIAInsuranceAssignment\src\test\resources\testData" />
+      <recent name="G:\Profession\LearnAutomation\RIAInsuranceAssignment\src\test" />
+      <recent name="G:\Profession\LearnAutomation\RIAInsuranceAssignment\src\main\java\com\app" />
+      <recent name="G:\Profession\LearnAutomation\RIAInsuranceAssignment\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Profession\LearnAutomation\RIAInsuranceAssignment\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.G:/Profession/LearnAutomation/RIAInsuranceAssignment/testng.xml">
+    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.ListDemo" />
+      <module name="RIAInsuranceAssignment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="G:/Profession/LearnAutomation/RIAInsuranceAssignment/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RIAInsuranceAssignment" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchWristWatchTest.searchAnalogueWristWatchesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RIAInsuranceAssignment" />
+      <option name="PACKAGE_NAME" value="com.app.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.SearchWristWatchTest" />
+      <option name="METHOD_NAME" value="searchAnalogueWristWatchesTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.G:/Profession/LearnAutomation/RIAInsuranceAssignment/testng.xml" />
+        <item itemvalue="Application.ListDemo" />
+        <item itemvalue="TestNG.SearchWristWatchTest.searchAnalogueWristWatchesTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Assignment commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment commit" />
+  </component>
+</project>
