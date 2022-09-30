@@ -1,0 +1,8 @@
+Note: This is my own selenium automatin framework that I've created myself for my learning 
+Using that frame work I've completed the given automation assignment 
+I've Used the below third part library for the Automation
+Third pary library used are below : 
+Owner Library - To read the property file 
+Test Data Suplier - To read the data from excel file 
+
+And to run the test case please use the TestNg.Xml file 
