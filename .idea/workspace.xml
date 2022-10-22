@@ -5,49 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2a6ff92-e4cd-452f-88d9-72d7373ddec7" name="Changes" comment="Assignment commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extent-test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/annotations/FrameworkAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/config/PropertyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/config/PropertyConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/constants/FrameworkConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/driver/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/driver/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/driver/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/driver/LocalDriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/driver/RemoteDriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/enums/BrowserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/enums/CategoryType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/enums/LogType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/enums/RunMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/enums/WaitType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/exceptions/FrameworkException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/exceptions/InvalidBrowserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/exceptions/InvalidPathForExcelException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/exceptions/InvalidRemoteURLException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/listeners/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/pages/AmazonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/reports/ExtentReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/reports/ExtentReportLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/reports/ExtentReportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/reports/FrameworkLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/testdata/TestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/DataProviderUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/DynamicsXpathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/ELKUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/ExplicitWaitUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/ScreenshotUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/SeleniumUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/SearchWristWatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/WristWatches_TestData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/AmazonProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extent-test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent-test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/driver/LocalDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/driver/LocalDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/pages/AmazonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/pages/AmazonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/testdata/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/testdata/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/utils/DataProviderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/DataProviderUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/utils/ExplicitWaitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/ExplicitWaitUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/utils/SeleniumUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/utils/SeleniumUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/app/tests/SearchWristWatchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/WristWatches_TestData.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +34,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2FQebT8IBE4hScgSjjZ6rqDv8lr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -94,15 +72,38 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.G:/Profession/LearnAutomation/RIAInsuranceAssignment/testng.xml">
-    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.ListDemo" />
-      <module name="RIAInsuranceAssignment" />
+    <configuration name="RangeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.RangeTest" />
+      <module name="AspireAssignment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmazonProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AspireAssignment" />
+      <option name="PACKAGE_NAME" value="com.app.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.AmazonProductTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmazonProductTest.validateProductPriceLessThanMinAndMaxPrice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AspireAssignment" />
+      <option name="PACKAGE_NAME" value="com.app.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.AmazonProductTest" />
+      <option name="METHOD_NAME" value="validateProductPriceLessThanMinAndMaxPrice" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="G:/Profession/LearnAutomation/RIAInsuranceAssignment/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RIAInsuranceAssignment" />
+      <module name="AspireAssignment" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
@@ -111,11 +112,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchWristWatchTest.searchAnalogueWristWatchesTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RIAInsuranceAssignment" />
+    <configuration name="RangeTest.AssertTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AspireAssignment" />
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.SearchWristWatchTest" />
-      <option name="METHOD_NAME" value="searchAnalogueWristWatchesTest" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.RangeTest" />
+      <option name="METHOD_NAME" value="AssertTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,8 +127,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.G:/Profession/LearnAutomation/RIAInsuranceAssignment/testng.xml" />
-        <item itemvalue="Application.ListDemo" />
-        <item itemvalue="TestNG.SearchWristWatchTest.searchAnalogueWristWatchesTest" />
+        <item itemvalue="TestNG.RangeTest.AssertTest" />
+        <item itemvalue="Application.RangeTest" />
+        <item itemvalue="TestNG.AmazonProductTest.validateProductPriceLessThanMinAndMaxPrice" />
+        <item itemvalue="TestNG.AmazonProductTest" />
       </list>
     </recent_temporary>
   </component>

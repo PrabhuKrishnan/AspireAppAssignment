@@ -1,19 +1,13 @@
 package com.app.utils;
 
-import com.app.driver.Driver;
 import com.app.driver.DriverManager;
-import com.app.enums.LogType;
 import com.app.enums.WaitType;
 import com.app.reports.ExtentReportLogger;
-import freemarker.core.CSSOutputFormat;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
-
-import static com.app.reports.FrameworkLogger.log;
 
 public final class SeleniumUtils {
 
@@ -36,19 +30,39 @@ public final class SeleniumUtils {
         WebElement element = ExplicitWaitUtils.performExplicitWait(by, waitType, elementName);
         element.click();
         ExtentReportLogger.pass(elementName + " is Clicked  successfully", true);
+    }
+
+    public static List<WebElement> getTextFromFindElements(By by) {
+        List<WebElement> elements = DriverManager.getDriver().findElements(by);
+        return elements;
+    }
+
+    public static String getTextFromFindElement(By by) {
+        String webElementText = DriverManager.getDriver().findElement(by).getText();
+        return webElementText;
 
     }
-    
-    public static void getTextFromElements(By by)
+
+
+    public static void selectDropDownByVisibleText(By by, WaitType waitType, String dropDownOptionValue, String elementName) {
+        WebElement element = ExplicitWaitUtils.performExplicitWait(by, waitType, elementName);
+        Select select = new Select(element);
+        select.selectByVisibleText(dropDownOptionValue);
+        ExtentReportLogger.pass(elementName + " is Selected Successfully ", true);
+    }
+
+    public static String getWebElementClassAttribute(By by)
     {
-        List<WebElement> elementText = DriverManager.getDriver().findElements(by);
-        for (WebElement element : elementText)
-        {
-            System.out.println(element.getText());
-        }
+        String elementAttribute = DriverManager.getDriver().findElement(by).getAttribute("class");
+        return elementAttribute;
+    }
+
+    public static boolean isButtonDisabled(By by)
+    {
+        boolean enabled = DriverManager.getDriver().findElement(by).isDisplayed();
+        return enabled;
 
 
     }
-   
 
 }

@@ -7,20 +7,35 @@ public class TestData {
     @Column(name = "TestCaseName", index = 0)
     public String testCaseName;
 
-    @Column(name = "SearchKeyword", index = 1)
+    @Column(name = "SearchCategory", index = 1)
+    public String searchCategory;
+
+    @Column(name = "SearchKeyword", index = 2)
     public String searchKeyword;
 
-    @Column(name = "DisplayType", index = 2)
-    public String displayType;
+    @Column(name = "FeaturedBrands", index = 3)
+    public String featureBrands;
 
-    @Column(name = "BrandsMaterial", index = 3)
-    public String brandsMaterial;
+    @Column(name = "MinimumPrice", index = 4)
+    public String minimumPrice;
 
-    @Column(name = "BrandName", index = 4)
-    public String brandName;
+    @Column(name = "MaximumPrice", index = 5)
+    public String maximumPrice;
 
-    @Column(name="Discount", index=5)
-    public String discount;
+    @Column(name = "SignInPageTitle", index = 6)
+    public String signInPageTitle;
+
+    @Column(name = "SortBy", index = 7)
+    public String sortByFilter;
+
+
+
+
+
+
+
+
+
 
 
 }

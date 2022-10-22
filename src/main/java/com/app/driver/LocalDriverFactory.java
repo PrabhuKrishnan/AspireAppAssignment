@@ -17,6 +17,7 @@ public final class LocalDriverFactory {
         if (browserName.equalsIgnoreCase(String.valueOf(BrowserType.CHROME))) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
+            driver.manage().deleteAllCookies();
         } else if (browserName.equalsIgnoreCase(String.valueOf(BrowserType.FIREFOX))) {
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();

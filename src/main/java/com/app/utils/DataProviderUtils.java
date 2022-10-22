@@ -4,6 +4,7 @@ import com.app.testdata.TestData;
 import io.github.sskorol.core.DataSupplier;
 import io.github.sskorol.data.XlsxReader;
 import one.util.streamex.StreamEx;
+import org.testng.annotations.DataProvider;
 
 import java.lang.reflect.Method;
 
@@ -22,5 +23,6 @@ public final class DataProviderUtils {
                 .read()
                 .filter(testData -> testData.testCaseName.equalsIgnoreCase(method.getName()));
     }
+
 
 }

@@ -5,9 +5,9 @@
         <listener class-name="com.app.listeners.TestListener"/>
     </listeners>
 
-    <test verbose="2" preserve-order="true" name="RIAInsuranceAssignment">
+    <test verbose="2" preserve-order="true" name="AspireAssignment">
         <classes>
-            <class name="com.app.tests.SearchWristWatchTest">
+            <class name="com.app.tests.AmazonProductTest">
             </class>
         </classes>
     </test>

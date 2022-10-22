@@ -31,7 +31,7 @@ public final class ExplicitWaitUtils {
 
         } else if (waitType == WaitType.VISIBLE) {
             element  =  new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(PropertyConfigReader.getConfig().timeout()))
-              .until(ExpectedConditions.visibilityOfElementLocated(by));
+                  .until(ExpectedConditions.visibilityOfElementLocated(by));
 
         }else if (waitType == WaitType.NONE)
         {
