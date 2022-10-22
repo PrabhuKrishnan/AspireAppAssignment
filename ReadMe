@@ -1,8 +1,12 @@
-Note: This is my own selenium automatin framework that I've created myself for my learning 
-Using that frame work I've completed the given automation assignment 
-I've Used the below third part library for the Automation
-Third pary library used are below : 
-Owner Library - To read the property file 
-Test Data Suplier - To read the data from excel file 
+To Run the Test Cases use the file the file "Testng.xml" file
+Testcase file present in the path /test/java/test/AmazonProductTest
+The URL(Amazon.com) has give in the config file /test/java/test/resources/config
+The test data are present in this path /test/java/test/resources/AmazonPage_TestData.xlsx
+The AmazonPage class is presenet in this path src/main/java/app/pages
+Test Report is present in this folder /AspireAssignment/extent-test-output
 
-And to run the test case please use the TestNg.Xml file 
+Note: 
+Used TestDataSupplier library to read the data file(AmazonPage_TestData.xlsx)
+Used Owner library to read the config.properties file
+Changed the Location to singapore to automate the flow (for location india, the got cart button is not displayed because of Amazon.com not shiping the product to india)
+For Test case 1, I have changed the search category as Belkin Instead of iPhone 14 and other requirments are same as provided
